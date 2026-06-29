@@ -1,0 +1,16 @@
+{
+    "TableName": "BridgeBriefDemo",
+    "TableArn": "arn:aws:dynamodb:us-east-1:637675605360:table/BridgeBriefDemo",
+    "TableStatus": "ACTIVE",
+    "BillingMode": "PAY_PER_REQUEST",
+    "KeySchema": [
+        {
+            "AttributeName": "pk",
+            "KeyType": "HASH"
+        },
+        {
+            "AttributeName": "sk",
+            "KeyType": "RANGE"
+        }
+    ]
+}

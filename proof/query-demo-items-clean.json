@@ -1,0 +1,65 @@
+{
+    "Items": [
+        {
+            "phoneNumber": {
+                "S": "+13053024013"
+            },
+            "city": {
+                "S": "ORLANDO"
+            },
+            "entityType": {
+                "S": "Lead"
+            },
+            "lineType": {
+                "S": "mobile"
+            },
+            "contactName": {
+                "S": "TEST PROSPECT"
+            },
+            "companyName": {
+                "S": "ORLANDO GROUP TRAVEL DEMO"
+            },
+            "source": {
+                "S": "BridgeBrief Demo"
+            },
+            "pk": {
+                "S": "LEAD#demo-1"
+            },
+            "state": {
+                "S": "FL"
+            },
+            "sk": {
+                "S": "PROFILE"
+            }
+        },
+        {
+            "entityType": {
+                "S": "CallSession"
+            },
+            "callerId": {
+                "S": "+14075536936"
+            },
+            "repFirstFlow": {
+                "BOOL": true
+            },
+            "notes": {
+                "S": "Sanitized hackathon proof item for BridgeBrief."
+            },
+            "status": {
+                "S": "demo-recorded"
+            },
+            "recordingAvailable": {
+                "BOOL": true
+            },
+            "pk": {
+                "S": "LEAD#demo-1"
+            },
+            "sk": {
+                "S": "SESSION#2026-06-29T17:30:00Z"
+            }
+        }
+    ],
+    "Count": 2,
+    "ScannedCount": 2,
+    "ConsumedCapacity": null
+}

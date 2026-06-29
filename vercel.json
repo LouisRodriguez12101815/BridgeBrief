@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "**/*.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "**/*.png",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/bridgebrief", "dest": "/bridgebrief/index.html" },
+    { "src": "/", "dest": "/bridgebrief/index.html" }
+  ]
+}
